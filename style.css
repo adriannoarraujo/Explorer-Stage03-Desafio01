@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1,
+legend {
+  font-family: 'Staatliches', cursive;
+}
+
+label p input {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #EFEFEF;
+}
+
+.page {
+  margin: auto;
+  width: 750px;
+
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: -1;
+
+  background: #535971;
+}
+
+header {
+
+  width: 417px;
+  margin-top: 140px;
+
+}
+
+header h1 {
+
+  font-size: 48px;
+  line-height: auto;
+  margin-bottom: 18px;
+
+  color: #FFFFFF;
+}
+
+p {
+
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 58px;
+}
+
+
+
+
+form {
+
+  min-height: 1084px;
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  padding: 64px;
+}
+
+.padrao fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+#nomecompleto {
+  display: flex;
+  gap: 22px;
+
+}
+
+#nomecompleto div input {
+  width: 300px;
+
+}
+
+
+legend {
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #535971;
+  margin-bottom: 16px;
+}
+
+.padrao label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+
+}
+
+.padrao input {
+  margin-top: 8px;
+  width: 100%;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 0 24px;
+
+  color: #6b6676;
+}
+
+.padrao hr {
+  border: 1px solid #E6E6F0;
+  margin-bottom: 36px;
+}
+
+span {
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #C1BCCC;
+}
+
+span:hover {
+  color: #77737e;
+}
+
+#horario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#horario2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#data {
+  width: 300px;
+}
+
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 366px;
+
+}
+
+footer input {
+
+  padding: 15px 40px;
+  gap: 10px;
+  width: 608px;
+  border: none;
+  background: #FF5374;
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+footer input:hover {
+  background: #a8374d;
+}
+
+
+
+.fonte {
+  font-size: 20px;
+  line-height: 34px;
+
+}
+
+input:invalid {
+  border: 1px solid rgb(198, 75, 75);
+}
